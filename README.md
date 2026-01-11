@@ -10,7 +10,7 @@ Aplikacja backend (folder o nazwie "library-main") automatycznie towrzy użytkow
 odpalanie aplikacji przez terminal 
 .\mvnw.cmd --% spring-boot:run -Dspring-boot.run.arguments="--server.port=8080"
 
-jeśli jakim cudem nie działa plik to tu jest struktura bazy danych 
+jeśli jakim cudem nie działa plik docker-compose.yml to tu jest struktura bazy danych 
 
 CREATE DATABASE library_db;
 
