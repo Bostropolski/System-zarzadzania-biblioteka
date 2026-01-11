@@ -3,9 +3,12 @@ Utworzony plik docker-compose.yml powinien utworzyć kontener z bazą danych.
 
 docker-compose up -d 
 
-Aplikacja frontend (folder o nazwie "biblioteka") wymaga npm install aby pobrać node_modules
+Aplikacja frontend zbuildowana do aplikacji backend
 
 Aplikacja backend (folder o nazwie "library-main") automatycznie towrzy użytkownika admin z rolą admin (hasło: admin123)
+
+odpalanie aplikacji przez terminal 
+.\mvnw.cmd --% spring-boot:run -Dspring-boot.run.arguments="--server.port=8080"
 
 jeśli jakim cudem nie działa plik to tu jest struktura bazy danych 
 
